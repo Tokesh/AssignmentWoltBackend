@@ -3,8 +3,8 @@ Assignment Wolt Software Engineer Internship
 
 ### Which function realized:
 Calculation of Delivery Fee: <br>
-'GET' 'localhost:8000/api/' with body: {"cart_value": 790, "delivery_distance": 2235, "number_of_items": 4, "time": "2021-10-12T13:00:00Z"}<br>
-returns {"delivery_fee": 710}
+'GET' 'localhost:8000/api/' with body: {"cart_value": 790, "delivery_distance": 2235, "number_of_items": 4, "time": "2021-10-12T13:00:00Z"}<br><br>
+Returns {"delivery_fee": 710}<br><br>
 ![image](https://user-images.githubusercontent.com/78027392/215882425-e0e5a388-4b7f-4c7f-8b2a-a15d219eae16.png)
 
 

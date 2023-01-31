@@ -1,12 +1,11 @@
-from unittest import TestCase
+from django.test import TestCase
 from api.models import Delivery
 from api.business_logic import calculateDeliveryFee
-
 class LogicTestCase(TestCase):
 
     def test_cart(self):
         # Testing cart less < 10 euro
-        delivery = Delivery(cart_value=695, delivery_distance=0, number_of_items=4, time="2021-10-12T13:00:00Z")
+        delivery = Delivery.objects.create(cart_value=695, delivery_distance=0, number_of_items=4, time="2021-10-12T13:00:00Z")
         result = calculateDeliveryFee(delivery)
         self.assertEqual(505, result)
     def test_distance1(self):

@@ -1,10 +1,11 @@
 #OS junk files
-*.DS_Store
+.DS_Store
 
 *.idea/
 *.__pycache__/
 __pycache__/
 .idea/
+.idea/*
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
